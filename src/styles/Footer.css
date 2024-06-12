@@ -1,0 +1,21 @@
+.eq-footer {
+  margin: auto 20px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: bottom;
+  align-items: center;
+}
+
+.eq-footer,
+.eq-footer a {
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.eq-footer span {
+  margin-left: auto;
+}
+
+.eq-footer span a {
+  display: block;
+}

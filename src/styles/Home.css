@@ -1,0 +1,202 @@
+.eq-about .about-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin: 5px auto 0;
+  padding: 0 35px;
+  text-align: center;
+  max-width: 1280px;
+}
+
+.eq-about .about-flex {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  gap: 50px;
+}
+
+.eq-about .about-flex .left {
+  max-width: 463px;
+}
+
+.eq-about .about-app {
+  display: flex;
+  align-items: center;
+  gap: 33px;
+  margin-top: 20px;
+}
+
+.eq-about .about-app a .apple {
+  width: 140px;
+  height: 47px;
+}
+
+.eq-about .about-app a .google {
+  width: 181px;
+  height: 70px;
+}
+
+.eq-about h1 {
+  margin: 0;
+  width: 360px;
+  max-width: 100%;
+  margin-bottom: 40px;
+}
+
+.eq-about h1 img {
+  width: 100%;
+  height: auto;
+}
+
+.eq-about .about-image {
+  width: 100%;
+}
+
+.eq-about .about-image img {
+  width: 100%;
+  height: auto;
+}
+
+.eq-header a.eq-button.link-button:focus,
+.eq-header a.eq-button.link-button:active,
+.eq-header a.eq-button.link-button:hover {
+  outline: 2px solid white;
+  outline-offset: 2px;
+}
+
+.eq-about .eq-about-footer {
+  margin: 96px auto 0;
+  max-width: 647px;
+}
+
+@media screen and (max-width: 900px) {
+  .eq-about .about-wrapper {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+
+  .eq-about .about-wrapper {
+    padding: 0;
+    max-width: 600px;
+  }
+
+  .eq-about .about-flex {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+
+  .eq-about .about-flex h1,
+  .eq-about .about-flex p {
+    text-align: center;
+    max-width: 335px;
+  }
+
+  .eq-about .about-flex h1 {
+    margin-bottom: 20px;
+  }
+
+  .eq-about .about-flex p {
+    font-size: 24px;
+  }
+
+  .eq-about .about-flex .left {
+    max-width: 100%;
+  }
+
+  .eq-about .about-app {
+    margin-top: 0;
+    justify-content: center;
+  }
+
+  .eq-about .eq-about-footer {
+    margin-top: 40px;
+  }
+
+  .eq-about .eq-about-footer p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .eq-about .eq-about-footer .inquiries {
+    margin-top: 20px;
+    max-width: 338px;
+  }
+
+  .eq-about .eq-about-footer .technical a {
+    display: block;
+  }
+
+  .eq-about .about-app {
+    justify-content: space-around;
+    gap: 0;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .eq-about .about-flex h1,
+  .eq-about .about-flex p {
+    text-align: center;
+    max-width: 335px;
+    width: 100%;
+  }
+
+  #main-content.about {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .eq-about h1,
+  .eq-about .login-footer {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .eq-about .large-text {
+    font-size: 22px;
+    line-height: 1;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .eq-about .login-footer {
+    display: grid;
+    grid-template-areas:
+      "nsf  nsf"
+      "ucla nd";
+    grid-row-gap: 15px;
+    grid-column-gap: 37px;
+    justify-content: space-between;
+  }
+
+  .eq-about .login-footer img {
+    width: auto;
+  }
+
+  .eq-about .login-footer img.nsf {
+    max-width: 50vw;
+    grid-area: nsf;
+    justify-self: center;
+  }
+
+  .eq-about .login-footer img.ucla {
+    max-width: 24vw;
+    grid-area: ucla;
+  }
+
+  .eq-about .login-footer img.nd {
+    max-width: 50vw;
+    grid-area: nd;
+  }
+
+  .eq-about footer {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

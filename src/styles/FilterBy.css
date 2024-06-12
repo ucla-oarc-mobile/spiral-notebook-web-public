@@ -1,0 +1,105 @@
+.filter-by-modal-popover-container .bp3-transition-container {
+  padding:  81px calc(50vw - (633px / 2));
+  pointer-events: auto;
+}
+
+.filter-by-modal-popover-wrapper.bp3-popover .bp3-popover-content {
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  width: 633px;
+  border-radius: 0;
+  padding: 50px 0 0;
+  z-index: -1;
+}
+
+.filter-by-modal-popover-wrapper.bp3-popover .bp3-popover-content h2 {
+  margin: 40px 0 35px;
+  background-color: transparent;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0px;
+  color: #181818;
+}
+
+.filter-by-modal-popover-wrapper.bp3-popover .bp3-popover-content .filter-by-actions {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin: 20px 0 40px;
+}
+
+.filter-by-modal-popover-wrapper.bp3-popover .bp3-popover-content .filter-by-actions .eq-button {
+  width: 187px;
+}
+
+.filter-by-modal-popover-wrapper.bp3-popover .bp3-popover-content .filter-by-actions .eq-button.reset {
+  border: unset;
+}
+
+.filter-by-modal-popover-wrapper .bp3-form-group:not(:last-child) {
+  border-bottom: 1px solid #656565;
+}
+
+.filter-by-modal-popover-wrapper .bp3-form-group .bp3-form-group {
+  border-bottom: unset;
+}
+
+.filter-by-modal-popover-wrapper form {
+  margin-top: 20px;
+  padding: 0 10px;
+}
+
+.filter-by-modal-popover-wrapper form .bp3-control .bp3-control-indicator,
+.filter-by-modal-popover-wrapper form .bp3-control .bp3-control-indicator::before,
+.filter-by-modal-popover-wrapper form input {
+  width: 24px;
+  height: 24px;
+}
+
+.filter-by-modal-popover-wrapper form .bp3-control .bp3-control-indicator,
+.filter-by-modal-popover-wrapper form input {
+  margin-left: -26px;
+}
+
+.filter-by-modal-popover-wrapper .bp3-form-group .bp3-control {
+  margin: 20px 0;
+  font-weight: normal;
+}
+
+.filter-by-modal-popover-wrapper.bp3-popover .bp3-form-group .bp3-label,
+.filter-by-modal-popover-wrapper.bp3-popover .bp3-form-group .standardFrameworkTags {
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.filter-by-modal-popover-wrapper.bp3-popover .bp3-form-group h2,
+.filter-by-modal-popover-wrapper.bp3-popover .bp3-form-group h3 {
+  font-weight: bold;
+  text-align: left;
+}
+
+.filter-by-modal-popover-wrapper.bp3-popover .bp3-form-group .standardFrameworkTags {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.filter-by-modal-popover-wrapper.bp3-popover .bp3-form-group h2 {
+  font-weight: bold;
+  margin: 0 0 23px 0;
+}
+
+.filter-by-modal-popover-wrapper.bp3-popover .bp3-form-group h3 {
+  margin: 0 10px 0 0;
+  background: #EEEEEE 0% 0% no-repeat padding-box;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 3px 0;
+}

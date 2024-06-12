@@ -1,0 +1,67 @@
+.PortfolioForm {
+  position: relative;
+}
+
+.PortfolioForm h1 {
+  margin-bottom: 60px;
+}
+
+.PortfolioForm .decline {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.PortfolioForm .row {
+  width: 620px;
+  display: flex;
+  margin: auto;
+}
+
+.PortfolioForm .bp3-form-group {
+  flex: 1;
+}
+
+.PortfolioForm .bp3-form-group:first-child {
+  margin-right: 20px;
+}
+
+.PortfolioForm .mini-group {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.PortfolioForm .mini-group label {
+  margin-bottom: 25px;
+}
+
+.PortfolioForm .bp3-html-select {
+  width: 100%;
+  margin-top: 2px;
+}
+
+.PortfolioForm .controls {
+  margin-top: 45px;
+  text-align: center;
+}
+
+.PortfolioForm .controls .bp3-button {
+  width: 200px;
+  font-weight: bold;
+}
+
+.PortfolioForm .controls .bp3-button:not(.eq-button-inverted) {
+  color: #757575;
+  border-color: #757575;
+}
+
+.PortfolioForm .controls .bp3-button:not(.eq-button-inverted):hover {
+  color: #ffffff;
+  background-color: #757575;
+}
+
+.PortfolioForm .controls .eq-button-inverted {
+  margin-left: 20px;
+}

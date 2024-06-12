@@ -1,0 +1,33 @@
+.eq-multiple-response {
+  max-width: 1024px;
+}
+
+.eq-multiple-response .bp3-form-content {
+  display: flex;
+  gap: 15.5px;
+  flex-wrap: wrap;
+}
+
+.eq-multiple-response.bp3-form-group .bp3-control {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0px;
+  border-radius: 19px;
+  height: 39px;
+  min-height: 39px;
+  padding: 0 11px;
+  margin: 0;
+  box-sizing: content-box;
+  display: flex;
+  align-items: center;
+}
+
+.eq-multiple-response.bp3-form-group .bp3-control:focus-within {
+  outline: rgba(19, 124, 189, 0.6) auto 2px;
+  outline-offset: 2px;
+}
+
+.eq-multiple-response .bp3-control .bp3-control-indicator {
+  display: none;
+}

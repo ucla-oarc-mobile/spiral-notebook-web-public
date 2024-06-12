@@ -1,0 +1,63 @@
+
+.single-selection .bp3-control {
+  text-align: center;
+  font: 12px;
+  font-weight: normal;
+  line-height: 18px;
+  letter-spacing: 0px;
+  color: #2774AE;
+  opacity: 1;
+}
+
+.single-selection .bp3-control.bp3-radio {
+  padding: 10px 24px;
+  margin: 0;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.single-selection .bp3-control.bp3-radio .bp3-control-indicator {
+  background-image: unset;
+  background-color: unset;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #2774AE;
+  border-left: unset;
+  border-radius: 0;
+  position: relative;
+  left: -24px;
+  top: -10px;
+  margin-bottom: -38px;
+  height: 36px;
+  width: calc(100% + 48px);
+  z-index: 0;
+}
+
+.single-selection .bp3-control.bp3-radio:nth-child(2) .bp3-control-indicator {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-left: 1px solid #2774AE;
+}
+
+.single-selection .bp3-control input:checked ~ .bp3-control-indicator {
+  background-image: unset;
+  background-color: #2774AE;
+  color: white;
+}
+
+.single-selection .bp3-control input:checked ~ .radio-label {
+  color: white;
+  z-index: 9;
+}
+
+.single-selection .bp3-control input:checked ~ .bp3-control-indicator::before {
+  content: unset;
+  position: absolute;
+}
+
+.single-selection input {
+  position: absolute;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+}

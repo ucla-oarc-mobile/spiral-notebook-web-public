@@ -1,0 +1,44 @@
+html, body, #root, .App, .eq-page {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  font-family: 'sofia-pro';
+}
+
+.eq-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.skip-link {
+  position: absolute;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+}
+
+header .skip-link {
+  top: 80px;
+  left: 15px;
+  background-color: #FFFFFF;
+  z-index: 99;
+}
+
+.login-page .skip-link {
+  top: unset;
+  left: unset;
+}
+
+.eq-loading h2 {
+  text-align: center;
+}
+
+.skip-link:active,
+.skip-link:focus {
+  position: relative;
+  overflow: unset;
+  width: unset;
+  height: unset;
+}

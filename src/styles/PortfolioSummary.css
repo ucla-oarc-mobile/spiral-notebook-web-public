@@ -1,0 +1,97 @@
+.eq-portfolio-summary {
+  border: 1px solid #757575;
+  border-radius: 3px;
+  width: 786px;
+  margin-bottom: 15px;
+}
+
+.eq-portfolio-summary .bp3-card {
+  padding: 0;
+}
+
+.eq-portfolio-summary h2.bp3-heading {
+  height: 36px;
+  padding: 6px 10px 4px;
+  margin: 0;
+  background-color: #757575;
+  color: #FFFFFF;
+}
+
+.eq-portfolio-summary .eq-ps-items {
+  display: flex;
+  padding: 10px;
+}
+
+.eq-portfolio-summary .eq-ps-desc {
+  flex-grow: 1;
+}
+
+.eq-portfolio-summary .eq-ps-desc .item {
+  width: 50%;
+  display: inline-block;
+  margin-bottom: 3px;
+}
+
+.eq-portfolio-summary .eq-ps-desc .item .grade:not(:last-child)::after {
+  content: ', ';
+}
+
+.eq-portfolio-summary .eq-ps-desc dl {
+  margin: 0;
+}
+
+.eq-portfolio-summary .eq-ps-desc dl dt {
+  font-weight: 600;
+}
+
+.eq-portfolio-summary .eq-ps-desc dl dt:after {
+  content: ':';
+}
+
+.eq-portfolio-summary .eq-ps-desc dl dd {
+  margin: 0 0 0 1ch;
+}
+
+.eq-portfolio-summary .eq-ps-actions {
+  display: flex;
+  justify-content: flex-end;
+  height: auto;
+  gap: 20px;
+}
+
+.eq-portfolio-summary .eq-ps-actions button,
+.eq-portfolio-summary .eq-ps-actions .link-button {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.eq-portfolio-summary.eq-width-full {
+  width: 100%;
+}
+
+.eq-portfolio-summary.eq-columns-4 .eq-ps-desc {
+  width: 100%;
+}
+
+.eq-portfolio-summary.eq-columns-4 dl {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.eq-portfolio-summary.eq-columns-4 .eq-ps-desc .item {
+  width: 25%;
+  flex: 0 1 auto;
+  min-width: 275px;
+}
+
+.researcher-summary .eq-portfolio-summary {
+  margin: 0 auto 30px auto;
+}
+
+.researcher-summary .eq-portfolio-summary.eq-columns-4 .eq-ps-desc .item {
+  min-width: auto;
+  width: auto;
+}

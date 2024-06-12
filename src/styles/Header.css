@@ -1,0 +1,66 @@
+.eq-header-spacer {
+  height: 70px;
+}
+
+.bp3-navbar.eq-header {
+  background: #2774AE;
+  color: #FFFFFF;
+  padding: 16px 20px;
+  padding: 16px 20px;
+  box-shadow: none;
+  height: 70px;
+}
+
+@media only screen and (max-width: 620px) {
+  .bp3-navbar.eq-header {
+    height: 140px;
+  }
+}
+
+.bp3-navbar.eq-header .eq-logo {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: 0.95px;
+  padding: 0 20px;
+  color: #FFFFFF
+}
+
+.bp3-navbar.eq-header .bp3-navbar-group {
+  height: 38px;
+}
+
+.bp3-navbar.eq-header .bp3-navbar-group .nav-item {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-weight: 400;
+  font-weight: 500;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding: 0 20px;
+}
+
+.bp3-navbar.eq-header .bp3-navbar-group a:hover {
+  text-decoration: none;
+}
+
+.bp3-navbar.eq-header .bp3-navbar-group a.active {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  -webkit-text-decoration-thickness: 3px;
+  text-underline-offset: 6.5px;
+}
+
+.bp3-navbar.eq-header .eq-dd-menu {
+  margin-left: auto;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.bp3-navbar.eq-header .eq-dd-menu .bp3-button-text,
+.bp3-navbar.eq-header .eq-dd-menu .bp3-icon {
+  color: #ffffff;
+}

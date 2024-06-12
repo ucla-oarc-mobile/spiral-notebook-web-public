@@ -1,0 +1,204 @@
+#main-content.edit-artifact {
+  margin: 0 5px;
+}
+
+.edit-shared-portfolio .decline,
+.edit-artifact .decline {
+  position: absolute;
+  right: 0;
+}
+
+.edit-artifact .edit-artifact-header,
+.edit-artifact .edit-artifact-header dl {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.edit-artifact .edit-artifact-header {
+  gap: 20px;
+}
+
+.edit-artifact .edit-artifact-header dl {
+  margin: 0;
+  gap: 107px;
+}
+
+.edit-artifact .edit-artifact-header dl div {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-artifact .edit-artifact-header dl div dd {
+  margin-left: 0;
+  position: relative;
+  line-height: 18px;
+  top: 28.5px;
+}
+
+.edit-artifact .edit-artifact-unit {
+  display: flex;
+  gap: 40px;
+}
+
+.edit-artifact .edit-artifact-unit label.bp3-label {
+  margin-bottom: 10px;
+}
+
+.edit-artifact-header .artifact-field input {
+  width: 295px;
+}
+
+.edit-artifact .artifact-uploads,
+.edit-artifact .artifact-field {
+  margin-bottom: 40px;
+}
+
+.edit-artifact .artifact-field label.bp3-label {
+  margin-bottom: 10px;
+}
+
+.edit-artifact-actions {
+  display: flex;
+  gap: 20.5px;
+  flex-wrap: wrap;
+  margin: 40px auto;
+  justify-content: center;
+}
+
+.edit-artifact-actions .eq-button {
+  width: 188px
+}
+
+.edit-artifact .form-messages {
+  display: block;
+  width: 100%;
+  margin: 0 0 10px 0;
+}
+
+.edit-artifact .artifact-field .field-error {
+  display: block;
+  width: 100%;
+  margin: 0 0 10px 0;
+}
+
+.edit-artifact .form-messages .form-error,
+.edit-artifact .artifact-field .field-error {
+  color: #E61E2F;
+}
+
+.edit-artifact .artifact-images {
+  gap: 30px;
+  margin: 0;
+}
+
+.edit-artifact .artifact-images .document-wrap,
+.edit-artifact .artifact-images .document-wrap a,
+.edit-artifact .artifact-images .img-wrap,
+.edit-artifact .artifact-images video {
+  max-width: 124px;
+  width: 124px;
+  height: 124px;
+  border-radius: 3px;
+  flex: 1 0 124px;
+  position: relative;
+}
+
+.edit-artifact .artifact-images .video-wrap {
+  position: relative;
+  max-width: 124px;
+}
+
+.edit-artifact .eq-file-upload,
+.edit-artifact .eq-file-upload .bp3-file-input,
+.edit-artifact .artifact-images .document-wrap img,
+.edit-artifact .artifact-images .img-wrap img,
+.edit-artifact .spinner-wrapper {
+  width: 124px;
+  height: 124px;
+  border-radius: 3px;
+}
+
+.edit-artifact .artifact-images .document-wrap a {
+  display: block;
+}
+
+.edit-artifact button.eq-remove-media {
+  position: absolute;
+  right: -24px;
+  top: 0;
+}
+
+.edit-artifact .artifact-images .document-wrap .eq-doc-label {
+  max-height: 0;
+  display: block;
+  color: #000000;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  transform: translateY(90px);
+  overflow-wrap: break-word;
+  line-height: 1;
+}
+
+.edit-artifact .artifact-images .document-wrap a:hover .eq-doc-label {
+  text-decoration-color: #000000;
+}
+
+.edit-artifact .eq-file-upload {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-artifact .eq-file-upload .bp3-file-input {
+  margin: 0;
+}
+
+.edit-artifact .eq-file-upload input {
+  min-width: 124px;
+  max-width: 124px;
+  min-height: 124px;
+  max-height: 124px;
+  cursor: pointer;
+}
+
+.edit-artifact .eq-file-upload.bp3-file-input {
+  border: 1px solid #2774AE;
+  border-radius: 3px;
+  background-image: url('images/add-new.svg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.edit-artifact .eq-file-upload.bp3-file-input:hover,
+.edit-artifact .eq-file-upload.bp3-file-input:focus-within {
+  background-color: #2774AE;
+  background-image: url('images/add-new-white.svg');
+}
+
+.edit-artifact .eq-file-upload.bp3-file-input:focus-within {
+  outline: rgba(19, 124, 189, 0.6) auto 2px;
+  outline-offset: 2px;
+}
+
+.edit-artifact .eq-file-upload .bp3-file-upload-input {
+  position: absolute;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  background-color: transparent;
+  border: unset;
+  box-shadow: unset;
+}
+
+.edit-artifact .spinner-wrapper {
+  border: 1px solid #2774AE;
+  border-radius: 3px;
+}
+
+.edit-artifact .bp3-spinner {
+  height: 100%;
+}
+
+.edit-artifact .eq-bonus-label {
+  text-transform: uppercase;
+}

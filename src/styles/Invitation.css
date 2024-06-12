@@ -1,0 +1,25 @@
+.invitation .invitation-actions {
+  position: absolute;
+  right: 0;
+  margin: 0 20px;
+  display: flex;
+}
+
+.invitation .invitation-actions button {
+  margin: 0 10px;
+}
+
+.invitation .invitation-actions button.accept {
+  font-weight: bold;
+}
+
+.invitation .eq-portfolio-summary {
+  margin-top: 26px;
+}
+
+@media screen and (max-width: 768px) {
+  .invitation .invitation-actions {
+    position: unset;
+    text-align: center;
+  }
+}

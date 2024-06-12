@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="223" height="223" viewBox="0 0 223 223">
+  <g id="Document" transform="translate(1.5 1.5)">
+    <path id="Path_154" data-name="Path 154" d="M464.088,153.934h-220v-220H416.6L464.088-5.438Z" transform="translate(-244.089 66.067)" fill="none" stroke="#2774ae" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Path_155" data-name="Path 155" d="M328.1-7.348H281.779V-66.066Z" transform="translate(-109.032 67.436)" fill="none" stroke="#2774ae" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <g id="Group_4863" data-name="Group 4863" transform="translate(3187.854 2400.687)">
+      <path id="Path_153" data-name="Path 153" d="M305.2,37.17a47.514,47.514,0,0,1-47.465-47.46A47.515,47.515,0,0,1,305.2-57.755a47.517,47.517,0,0,1,47.46,47.465A47.516,47.516,0,0,1,305.2,37.17Z" transform="translate(-3383.087 -2290.432)" fill="none" stroke="#2774ae" stroke-linejoin="round" stroke-width="3"/>
+      <g id="Backward_arrow" data-name="Backward arrow" transform="translate(-3110.131 -2268.142) rotate(-90)">
+        <path id="Path_10" data-name="Path 10" d="M31.92,0l-5.8,5.8L48.087,27.774H0v8.291H48.087L26.116,58.036l5.8,5.8,31.92-31.92Z" transform="translate(63.839 63.839) rotate(180)" fill="#2774ae"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+  viewBox="0 0 14 14">
+  <defs>
+    <style>
+      .a {
+        fill: #fff;
+        stroke: #2774AE;
+        stroke-width: 1px;
+      }
+
+      .b {
+        fill: #2774AE;
+      }
+    </style>
+  </defs>
+    <g transform="translate(6.5 -3.5) rotate(45)">
+      <path class="b" d="M7,16V9H0V7H7V0H9V7h7V9H9v7Z" />
+    </g>
+</svg>

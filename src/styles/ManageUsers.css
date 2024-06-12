@@ -1,0 +1,76 @@
+.eq-manage-users h1 {
+  text-align: center;
+}
+
+.eq-manage-users .eq-react-table {
+  margin-top: 24px;
+}
+
+.eq-manage-users .ReactTable.eq-react-table .rt-thead .rt-th {
+  min-width: 120px;
+}
+
+.eq-manage-users .ReactTable.eq-react-table .rt-tbody .rt-td {
+  margin: 0 10px;
+}
+
+:root {
+  --create_user_modal_height: 424px;
+  --create_user_modal_width: 640px;
+}
+
+.create-user-modal-popover-container .bp3-transition-container {
+  padding: calc(50vh - (var(--create_user_modal_height) / 2)) calc(50vw - (var(--create_user_modal_width) / 2));
+}
+
+.create-user-modal-popover-wrapper.bp3-popover .bp3-popover-content {
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  width: var(--create_user_modal_width);
+  height: var(--create_user_modal_height);
+  border-radius: 0;
+  padding: 50px 0 0;
+  z-index: -1;
+}
+
+.create-user-modal-popover-wrapper.bp3-popover .bp3-popover-content h2 {
+  margin: 40px 0 0;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #181818;
+}
+
+.create-user-modal-popover-wrapper.bp3-popover .bp3-popover-content .create-user-actions {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.create-user-modal-popover-wrapper.bp3-popover .bp3-popover-content .create-user-actions button {
+  width: 120px;
+}
+
+.create-user-modal-popover-wrapper form {
+  width: 100%;
+  max-width: 512px;
+  margin-top: 20px;
+  padding: 0 10px;
+  margin: 20px auto;
+}
+
+.create-user-modal-popover-wrapper form .eq-select {
+  width: 200px;
+}
+
+.create-user-modal-popover-wrapper .bp3-spinner {
+  margin: 20px auto;
+}
+
+.create-user-modal-popover-wrapper form .field-error {
+  color: #E61E2F;
+}
+

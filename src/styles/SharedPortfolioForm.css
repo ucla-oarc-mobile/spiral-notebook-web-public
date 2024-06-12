@@ -1,0 +1,196 @@
+.SharedPortfolioForm .delete-modal-popover-wrapper .bp3-popover-wrapper,
+.SharedPortfolioForm .delete-modal-popover-wrapper .bp3-popover-target {
+  width: fit-content;
+}
+
+.SharedPortfolioForm {
+  position: relative;
+}
+
+.SharedPortfolioForm .invalid {
+  margin-bottom: 5px;
+  color: #eb0c00;
+  font-weight: bold;
+}
+
+.SharedPortfolioForm h1 {
+  margin-bottom: 24px;
+}
+
+.SharedPortfolioForm h2 {
+  margin-bottom: 20px;
+}
+
+.SharedPortfolioForm .decline {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.SharedPortfolioForm .row {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.SharedPortfolioForm .double-width {
+  flex: 2;
+  margin-right: 40px;
+}
+
+.SharedPortfolioForm .bp3-form-group {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.SharedPortfolioForm .bp3-form-group:last-child {
+  margin-right: 0;
+}
+
+.SharedPortfolioForm .bp3-form-group .bp3-input {
+  margin-top: 2px;
+}
+
+.SharedPortfolioForm .bp3-html-select {
+  width: 100%;
+  margin-top: 2px;
+}
+
+.SharedPortfolioForm .bp3-form-group textarea.bp3-input {
+  height: 150px;
+}
+
+.SharedPortfolioForm .ReactTable {
+  border: none;
+}
+
+.SharedPortfolioForm .ReactTable .rt-thead.-header {
+  border-bottom: 1px solid #181818;
+  box-shadow: none;
+}
+
+.SharedPortfolioForm .ReactTable .rt-thead div.rt-th {
+  box-shadow: none;
+  border: none;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 0 10px 10.5px;
+}
+
+.SharedPortfolioForm .ReactTable .rt-tbody .rt-tr-group {
+  min-height: 70px;
+  border-bottom: 1px solid #181818;
+}
+
+.SharedPortfolioForm .ReactTable .rt-tbody .rt-td {
+  padding: 10px;
+  border: none;
+  display: flex;
+  align-items: center;
+  white-space: normal;
+}
+
+.SharedPortfolioForm .ReactTable .rt-tbody .rt-td textarea {
+  width: 100%;
+  border: 1px solid #757575;
+  box-shadow: none;
+}
+
+.SharedPortfolioForm .ReactTable .rt-tbody .rt-td .bp3-form-group {
+  margin-bottom: 0;
+}
+
+.SharedPortfolioForm .ReactTable .rt-tbody .rt-td .bp3-html-select {
+  margin-top: 0;
+}
+
+.SharedPortfolioForm .ReactTable .rt-tbody .rt-td .bp3-html-select select {
+  height: 56px;
+}
+
+.SharedPortfolioForm .ReactTable .rt-tfoot {
+  height: 70px;
+  border-bottom: 1px solid #181818;
+  box-shadow: none;
+  line-height: 50px;
+}
+
+.SharedPortfolioForm .ReactTable .rt-tfoot .rt-td {
+  display: flex;
+  border: none;
+  line-height: 50px;
+}
+
+.SharedPortfolioForm .delete-question {
+  display: block;
+  margin: auto;
+  cursor: pointer;
+}
+
+.SharedPortfolioForm .add-question {
+  display: block;
+  margin: auto;
+  cursor: pointer;
+}
+
+.SharedPortfolioForm .controls {
+  margin-top: 45px;
+  text-align: center;
+}
+
+.SharedPortfolioForm .controls .bp3-button:not(.eq-button-inverted) {
+  color: #757575;
+  border-color: #757575;
+}
+
+.SharedPortfolioForm .controls .bp3-button:not(.eq-button-inverted):hover {
+  color: #ffffff;
+  background-color: #757575;
+}
+
+.SharedPortfolioForm .controls .eq-button-inverted {
+  margin-left: 20px;
+}
+
+.SharedPortfolioForm .bp3-control.bp3-switch {
+  margin-bottom: 0;
+}
+
+.SharedPortfolioForm .bp3-control.bp3-switch .bp3-control-indicator {
+  width: 50px;
+  height: 30px;
+  background-color: #757575;
+}
+
+.SharedPortfolioForm .bp3-control.bp3-switch .bp3-control-indicator::before {
+  width: 26px;
+  height: 26px;
+  background-image: url("../images/switchUnchecked.svg");
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.SharedPortfolioForm .bp3-control.bp3-switch input:checked ~ .bp3-control-indicator {
+  background-color: #2774ae;
+}
+
+.SharedPortfolioForm .bp3-control.bp3-switch input:checked ~ .bp3-control-indicator::before {
+  left: 20px;
+  background-image: url("../images/switchChecked.svg");
+  background-size: 14px;
+  background-repeat: no-repeat;
+  background-position: center 7px;
+}
+
+.SharedPortfolioForm .bp3-control.bp3-switch input:checked:disabled ~ .bp3-control-indicator {
+  background-color: #2774aeb3;
+}
+
+.SharedPortfolioForm .bp3-control.bp3-switch input:checked:disabled ~ .bp3-control-indicator::before {
+  background-color: white;
+  background-image: url("../images/switchDisabled.svg");
+  background-size: 14px;
+  background-repeat: no-repeat;
+  background-position: center;
+}

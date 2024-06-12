@@ -1,0 +1,69 @@
+h1.bp3-heading,
+.large-text {
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 36px;
+  color: #0E4B74;
+}
+
+.large-text {
+  color: #000000;
+}
+
+h1.eq-title-black {
+  color: #181818;
+}
+
+h2.bp3-heading {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 20px;
+  color: #181818;
+}
+
+h3.bp3-heading {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  color: #181818;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+}
+
+a {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #2774AE;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 20px;
+  color: #181818;
+}
+
+dl {
+  color: #181818;
+  font-size: 14px;
+  font-weight: 20px;
+}
+
+dt {
+  font-weight: bold;
+  display: inline;
+}
+
+dd {
+  display: inline;
+}
+
+hr {
+  margin: 0;
+  padding: 0;
+  height: 0px;
+  border-bottom: 1px solid #656565;
+}

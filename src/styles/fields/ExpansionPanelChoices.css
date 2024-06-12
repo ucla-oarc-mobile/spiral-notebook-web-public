@@ -1,0 +1,84 @@
+.eq-expansion-panel-choices {
+  max-width: 630px;
+}
+
+.eq-expansion-panel-choices .eq-panel {
+  margin: 0 0 2px 0;
+}
+
+.eq-expansion-panel-choices .eq-panel label.bp3-label {
+  margin: 0;
+}
+
+.eq-expansion-panel-choices  a.eq-panel-label,
+.eq-expansion-panel-choices  button.eq-panel-label {
+  display: flex;
+  align-items: center;
+  width: 630px;
+  height: 50px;
+  text-align: left;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  justify-content: flex-start;
+  border-radius: 0;
+}
+
+.eq-expansion-panel-choices  a.eq-panel-label.hide,
+.eq-expansion-panel-choices  button.eq-panel-label.hide {
+  padding: 0 10px;
+}
+
+.eq-expansion-panel-choices  a.eq-panel-label:hover,
+.eq-expansion-panel-choices  a.eq-panel-label:active,
+.eq-expansion-panel-choices  a.eq-panel-label:focus {
+  background-color: #ffffff;
+}
+
+.eq-expansion-panel-choices  a.eq-panel-label h2,
+.eq-expansion-panel-choices  button.eq-panel-label h2 {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.eq-expansion-panel-choices a.eq-button.eq-button-icon-left::before,
+.eq-expansion-panel-choices button.bp3-button.eq-button.eq-button-icon-left::before {
+  background-image: url('images/dropdown.svg');
+  background-size: 16px 10.5px;
+  background-repeat: no-repeat;
+  height: 10.5px;
+  width: 16px;
+  margin-right: 10px;
+}
+
+.eq-expansion-panel-choices a.eq-button.eq-button-icon-left.hide::before,
+.eq-expansion-panel-choices button.bp3-button.eq-button.eq-button-icon-left.hide::before {
+  transform: rotate(180deg);
+}
+
+.eq-expansion-panel-choices a.eq-button.eq-button-icon-left:hover::before,
+.eq-expansion-panel-choices a.eq-button.eq-button-icon-left:focus::before,
+.eq-expansion-panel-choices a.eq-button.eq-button-icon-left:active::before,
+.eq-expansion-panel-choices button.bp3-button.eq-button.eq-button-icon-left:hover::before,
+.eq-expansion-panel-choices button.bp3-button.eq-button.eq-button-icon-left:focus::before,
+.eq-expansion-panel-choices button.bp3-button.eq-button.eq-button-icon-left:active::before {
+  background-image: url('images/dropdown-blue.svg') !important;
+  color: #2774AE;
+}
+
+.eq-expansion-panel-choices a.eq-button.eq-button-icon-left:hover h2,
+.eq-expansion-panel-choices a.eq-button.eq-button-icon-left:focus h2,
+.eq-expansion-panel-choices a.eq-button.eq-button-icon-left:active h2,
+.eq-expansion-panel-choices button.bp3-button.eq-button.eq-button-icon-left:hover h2,
+.eq-expansion-panel-choices button.bp3-button.eq-button.eq-button-icon-left:focus h2,
+  .eq-expansion-panel-choices button.bp3-button.eq-button.eq-button-icon-left:active h2 {
+  color: #2774AE;
+}
+
+.eq-expansion-panel-choices .bp3-collapse-body {
+  margin: 20px;
+}

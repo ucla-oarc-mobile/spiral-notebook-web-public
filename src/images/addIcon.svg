@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31">
+  <g id="Add" transform="translate(1 1)">
+    <path id="knob" d="M14.5,0A14.5,14.5,0,1,1,0,14.5,14.5,14.5,0,0,1,14.5,0Z" fill="#fff" stroke="#2774ae" stroke-width="2"/>
+    <path id="Union_2" data-name="Union 2" d="M-4613.875,14V7.875H-4620V6.125h6.125V0h1.75V6.125H-4606v1.75h-6.125V14Z" transform="translate(4627.5 7.5)" fill="#2774ae"/>
+  </g>
+</svg>

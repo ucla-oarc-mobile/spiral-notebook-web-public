@@ -1,0 +1,567 @@
+.artifact-info {
+  display: flex;
+}
+
+
+.artifact-compare {
+  width: 100%;
+  display: flex;
+}
+
+.artifact-compare .artifact-view {
+  flex: 1 0;
+}
+
+.artifact-view {
+  margin: 45px 0 0 22.5px;
+  width: 100%;
+}
+
+.artifact-view h2 {
+  margin-top: 20px;
+}
+
+.artifact-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.artifact-header-right {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.artifact-header-right button {
+  text-transform: uppercase;
+  padding: 15px 20px;
+}
+
+.artifact-view dl dt,
+.artifact-view dl dd {
+  float: left;
+  display: block;
+}
+
+.artifact-view dl dt {
+  clear: left;
+}
+
+.artifact-view dl dt::after {
+  content: ':';
+}
+
+.artifact-view dl dd {
+  margin-left: 1ch;
+}
+
+.artifact-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+  margin-top: 20px;
+}
+
+.artifact-videos video,
+.artifact-images .img-wrap {
+  flex: 1 0 224px;
+  height: 224px;
+  width: 224px;
+  max-width: 224px;
+}
+
+.eq-carusel-controls {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 5px;
+  gap: 20px;
+  position: absolute;
+  z-index: 100;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  background-color: #FFFFFF;
+}
+
+.img-wrap .react-transform-wrapper {
+  cursor: move;
+}
+
+.artifact-popover .carusel-image-rotation-0 img {
+  transform: unset;
+}
+
+.artifact-popover .carusel-image-rotation-1 img {
+  transform: rotate(90deg);
+}
+
+.artifact-popover .carusel-image-rotation-2 img {
+  transform: rotate(180deg);
+}
+
+.artifact-popover .carusel-image-rotation-3 img {
+  transform: rotate(270deg);
+}
+
+.artifact-videos video {
+  background-color: #000000;
+}
+
+.artifact-images img {
+  aspect-ratio: 1;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.artifact-response {
+  padding: 20px 0;
+}
+
+.artifact-response .artifact-multiple-response {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.artifact-view .edit-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20.5px;
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.artifact-view .edit-actions a.eq-button.link-button,
+.artifact-view .edit-actions button {
+  width: 187px;
+}
+
+.artifact-view .edit-actions button.decline {
+  width: auto;
+  align-content: center;
+}
+
+/* Popover */
+.artifact-images .bp3-popover-wrapper.bp3-fill,
+.artifact-images .bp3-popover-target,
+.artifact-images .bp3-popover-target {
+  display: inline-block;
+  width: auto;
+}
+
+.artifact-images .bp3-popover-target {
+  cursor: pointer;
+}
+
+.artifact-slider.awssld {
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.artifact-compare .artifact-slider.awssld {
+  height: 224px;
+  max-width: 290px;
+}
+
+.artifact-popover .img-wrap {
+  width: 100%;
+  height: 100%;
+  padding: 0 100px 70px;
+}
+
+.artifact-popover .img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.artifact-image-wrapper-popover.bp3-popover .bp3-popover-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  border-radius: 0;
+  padding: 50px 0 0;
+}
+
+.artifact-image-wrapper {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Slider Controls */
+.artifact-slider.awssld .awssld__content {
+  background-color: transparent;
+}
+
+.artifact-popover.artifact-slider.awssld .awssld__controls button,
+.artifact-compare .artifact-slider.awssld .awssld__controls button {
+  height: 29px;
+  width: 29px;
+  background-color: #FFFFFF;
+  border-radius: 29px;
+  overflow: hidden;
+  box-sizing: content-box;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: calc(50% - (14.5px));
+  z-index: 9;
+}
+
+.artifact-compare .artifact-slider.awssld .awssld__controls button:hover,
+.artifact-compare .artifact-slider.awssld .awssld__controls button:active,
+.artifact-compare .artifact-slider.awssld .awssld__controls button:focus,
+.artifact-popover.artifact-slider.awssld .awssld__controls button:hover,
+.artifact-popover.artifact-slider.awssld .awssld__controls button:active,
+.artifact-popover.artifact-slider.awssld .awssld__controls button:focus {
+  background-color: #2774AE;
+}
+
+.awssld__controls button:hover .eq-left-arrow,
+.awssld__controls button:active .eq-left-arrow,
+.awssld__controls button:focus .eq-left-arrow,
+.awssld__controls button:hover .eq-right-arrow,
+.awssld__controls button:active .eq-right-arrow,
+.awssld__controls button:focus .eq-right-arrow {
+  background-color: #2774AE;
+  background-image: url('images/down-arrow-white.svg');
+}
+
+.artifact-slider.awssld .awssld__controls .awssld__next svg {
+  transform: rotate(-90deg);
+}
+
+.artifact-slider.awssld .awssld__controls .awssld__prev svg {
+  transform: rotate(90deg);
+}
+
+.artifact-popover.artifact-slider.awssld .awssld__controls .awssld__next {
+  justify-content: flex-start;
+}
+
+.artifact-popover.artifact-slider.awssld .awssld__controls .awssld__prev {
+  justify-content: flex-end;
+}
+
+.artifact-popover.artifact-slider.awssld .awssld__controls .awssld__next {
+  margin-right: 70px;
+}
+
+.artifact-popover.artifact-slider.awssld .awssld__controls .awssld__prev {
+  margin-left: 70px;
+}
+
+.artifact-view .document-wrap,
+.artifact-view .document-wrap a {
+  max-width: 220px;
+  width: 220px;
+  height: 220px;
+  border-radius: 3px;
+  flex: 1 0 220px;
+}
+
+.artifact-view .document-wrap img {
+  width: 220px;
+  height: 220px;
+  border-radius: 3px;
+}
+
+.artifact-view .document-wrap a {
+  display: block;
+}
+
+.artifact-view .document-wrap .eq-doc-label {
+  max-height: 0;
+  display: block;
+  color: #000000;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  transform: translateY(170px);
+  overflow-wrap: break-word;
+  line-height: 1;
+}
+
+.artifact-view .document-wrap a:hover {
+  outline: rgba(19, 124, 189, 0.6) auto 2px;
+  outline-offset: 2px;
+}
+
+.artifact-view .document-wrap a:hover .eq-doc-label {
+  text-decoration-color: #000000;
+}
+
+.eq-article-reactions,
+.artifact-reactions-container-popover .bp3-popover-content {
+  display: flex;
+  gap: 10px;
+}
+
+.eq-article-reactions .eq-button.add-reaction {
+  min-height: 25px;
+  height: min-content;
+  line-height: 21px;
+  border: unset;
+  font-style: italic;
+  padding: 0;
+}
+
+.artifact-reactions-container-popover .bp3-popover-content {
+  padding: 12px 7.5px;
+}
+
+.artifact-view button.bp3-button.reaction {
+  padding: 0;
+}
+
+.artifact-reactions-container-popover button.bp3-button.reaction,
+.artifact-view button.bp3-button.reaction .bp3-button-text {
+  padding: 0 9px;
+  font-size: 10px;
+  color: #FFFFFF;
+  display: flex;
+  gap: 3px;
+}
+
+.artifact-reactions-container-popover button.bp3-button.reaction {
+  height: auto;
+}
+
+.artifact-view button.bp3-button.reaction {
+  border-radius: 13px;
+  height: 25px;
+  min-height: 25px;
+  max-height: 25px;
+  border-color: #2774AE;
+  border: 1px solid #2774AE;
+  box-sizing: border-box;
+}
+
+
+.artifact-view button.bp3-button.reaction.selected:hover,
+.artifact-view button.bp3-button.reaction {
+  background: #FFFFFF;
+}
+
+.artifact-view button.bp3-button.reaction:not(.selected):hover,
+.artifact-view button.bp3-button.reaction.selected {
+  background: #2774AE;
+}
+
+.artifact-view button.bp3-button.reaction.selected:hover .count,
+.artifact-view button.bp3-button.reaction .count {
+  color: #2774AE;
+}
+
+.artifact-view button.bp3-button.reaction:not(.selected):hover .count,
+.artifact-view button.bp3-button.reaction.selected .count {
+  color: #FFFFFF;
+}
+
+
+.eq-article-reactions button.bp3-button.reaction.add {
+  /* width: 34px; */
+  height: 25px;
+  background: transparent;
+  color: transparent;
+  background-image: url('images/add-reaction.svg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border: unset;
+  box-shadow: unset;
+  border-radius: 13px;
+}
+
+.eq-article-reactions button.bp3-button.reaction.add:hover {
+  margin-right: -1px;
+  margin-left: 1px;
+}
+
+.eq-article-reactions button.bp3-button.reaction.add .bp3-button-text {
+  visibility: hidden;
+}
+
+.artifact-reactions-container-popover button:focus,
+.artifact-reactions-container-popover button:hover,
+.artifact-reactions-container-popover button:active,
+.eq-article-reactions button.bp3-button.reaction:focus {
+  outline: rgba(19, 124, 189, 0.6) auto 2px;
+  outline-offset: 2px;
+}
+
+.eq-article-reactions button.bp3-button.reaction.add:focus,
+.eq-article-reactions button.bp3-button.reaction.add:active,
+.eq-article-reactions button.bp3-button.reaction.add:hover {
+  background: transparent;
+  background-image: url('images/add-reaction-inverted.svg');
+  box-shadow: unset;
+  background-repeat: no-repeat;
+}
+
+.artifact-reactions-container-popover .bp3-popover-content {
+  padding: 0 0 7.5px;
+}
+
+.artifact-reactions-container-popover .reactions {
+  margin: 4.5px 12.5px 0;
+  display: flex;
+  gap: 6px;
+  justify-content: space-around;
+}
+
+.artifact-view button.bp3-button.reaction .count {
+  height: 12px;
+  transform: translate(0, 25%);
+}
+
+.artifact-reactions-heading {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.artifact-reactions-container-popover h2 {
+  text-align: center;
+  font-size: 12px;
+  line-height: 14px;
+  margin: 7.5px auto 4.5px;
+  padding: 0 29px;
+}
+
+
+.artifact-reactions-container-popover button.bp3-button.icon {
+  border: unset;
+  box-shadow: unset;
+  background-color: unset;
+}
+
+.artifact-reactions-container-popover button.eq-close {
+  min-width: unset;
+  min-height: unset;
+  border: unset;
+  box-shadow: unset;
+  background-color: unset;
+  width: 12px;
+  height: 12px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url('images/close-inverted.svg');
+  position: absolute;
+  margin-top: 8px;
+  margin-right: 8px;
+}
+
+.artifact-reactions-container-popover  button.eq-close:active,
+.artifact-reactions-container-popover  button.eq-close:hover {
+  min-width: unset;
+  min-height: unset;
+  border: unset;
+  box-shadow: unset;
+  background-color: unset;
+}
+
+.artifact-reactions-container-popover button.bp3-button.icon,
+.artifact-view button.bp3-button.reaction .icon {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 17px;
+  font-size: 17px;
+  text-align: center;
+}
+.artifact-view button.bp3-button.reaction .icon {
+  margin:  0;
+}
+
+.eq-artifact-comments {
+  border-top: 1px solid #656565;
+  border-bottom: 1px solid #656565;
+  padding-top: 16px;
+}
+
+.eq-artifact-comment {
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #656565;
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.eq-artifact-comment-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.eq-artifact-comment-name {
+  font-size: 14px;
+}
+
+.eq-artifact-comment-form .bp3-form-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.eq-artifact-comment-form-actions {
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+  gap: 20px;
+  width: 100%;
+}
+
+.eq-artifact-comment-edit .eq-button.delete,
+.eq-artifact-comment .eq-button.edit {
+  border: unset;
+  box-shadow: unset;
+  height: unset;
+  min-height: unset;
+  border-radius: unset;
+  padding: 0;
+}
+
+.eq-artifact-comment-edit .eq-button.delete:active,
+.eq-artifact-comment-edit .eq-button.delete:focus,
+.eq-artifact-comment-edit .eq-button.delete:hover,
+.eq-artifact-comment .eq-button.edit:active,
+.eq-artifact-comment .eq-button.edit:focus,
+.eq-artifact-comment .eq-button.edit:hover {
+  background: #ffffff;
+  color: #2774AE;
+  text-decoration: underline;
+  box-shadow: unset;
+}
+
+.eq-artifact-comment-form-actions .bp3-popover-wrapper  {
+  justify-self: flex-start;
+  margin-right: auto;
+  margin-left: 0;
+}
+
+.eq-artifact-comment-reply button.eq-button.save {
+  width: 49px;
+  background: #757575;
+  color: #FFFFFF;
+  border: 1px solid #757575;
+}
+
+.eq-artifact-comment-reply button.eq-button.save:hover,
+.eq-artifact-comment-reply button.eq-button.save:focus {
+  color: #757575;
+  background: #FFFFFF;
+}

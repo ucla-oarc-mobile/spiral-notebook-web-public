@@ -1,0 +1,54 @@
+#main-content.copy-artifact {
+  margin: 0 5px;
+}
+
+.copy-artifact form {
+  max-width: 365px;
+  margin: 0 auto;
+}
+
+.copy-artifact h1 {
+  margin-bottom: 40px;
+}
+
+.copy-artifact .copy-artifact-actions {
+  justify-content: space-between;
+}
+
+.copy-artifact form label.bp3-control {
+  padding: 3px 0 0 34px;
+  margin-bottom: 20px;
+}
+
+.copy-artifact form .bp3-control .bp3-control-indicator,
+.copy-artifact form input {
+  width: 24px;
+  height: 24px;
+  margin: -3px 0 0 -34px;
+  position: absolute;
+}
+
+.copy-artifact form input {
+  margin: 0;
+}
+
+.copy-artifact form .bp3-control .bp3-control-indicator::before {
+  content: unset;
+}
+
+.copy-artifact dd {
+  font-weight: normal;
+  margin-left: 1ch;
+}
+
+.copy-artifact form .eq-button {
+  width: 155px;
+  padding: 0;
+}
+
+.copy-artifact form h2 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 40px;
+}

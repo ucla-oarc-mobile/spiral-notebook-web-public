@@ -1,0 +1,248 @@
+.artifact-table {
+  padding-top: 15px;
+  padding-right: 16px;
+  max-width: fit-content;
+  max-width: -moz-fit-content;
+}
+
+.artifact-table-heading .bp3-checkbox {
+  margin: 0 10px;
+  position: absolute;
+}
+
+.artifact-table-heading .bp3-checkbox .input,
+.artifact-table-heading .bp3-checkbox .bp3-control-indicator,
+.artifact-table-heading .bp3-checkbox .bp3-control-indicator::before {
+  width: 24px;
+  height: 24px;
+}
+
+.artifact-table-heading h2 {
+  text-align: center;
+}
+
+.artifact-table .eq-react-table {
+  border: 0;
+}
+
+.artifact-table .eq-react-table .rt-table {
+  width: 453px;
+  overflow: visible;
+  border: 1px solid #757575;
+  border-radius: 3px;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+.artifact-table .eq-react-table .rt-thead.-header,
+.artifact-table .eq-react-table .rt-thead .rt-th.-cursor-pointer {
+  box-shadow: unset;
+}
+
+.artifact-table .eq-react-table .rt-thead,
+.artifact-table .eq-react-table .rt-tbody,
+.artifact-table .eq-react-table .rt-tr-group {
+  overflow-x: hidden;
+}
+
+.artifact-table .eq-react-table:not(.comparing) .rt-tr-group,
+.artifact-table .eq-react-table.comparing .compare .bp3-control,
+.artifact-table .eq-react-table.comparing .artifact-name label {
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.artifact-table .eq-react-table .rt-thead {
+  width: 453px;
+  border-bottom: 1px solid #757575;
+}
+
+.artifact-table .eq-react-table .rt-thead .rt-th {
+  border: 0;
+  text-align: left;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: #181818;
+  padding: 6px 20px 6.5px;
+}
+
+.artifact-table .eq-react-table .rt-thead .rt-th.-sort-asc span,
+.artifact-table .eq-react-table .rt-thead .rt-th.-sort-desc span {
+  color: #2774AE;
+}
+
+.artifact-table .eq-react-table .rt-thead .rt-th.-sort-asc span img,
+.artifact-table .eq-react-table .rt-thead .rt-th.-sort-desc span img {
+  filter: invert(40%) sepia(7%) saturate(6505%) hue-rotate(167deg) brightness(93%) contrast(84%);
+}
+
+.artifact-table .eq-react-table .rt-thead .rt-th.-sort-asc span img {
+  transform: rotate(180deg)
+}
+
+.artifact-table .eq-react-table .rt-thead .rt-th .sort {
+  float: right;
+  clear: right;
+}
+
+.artifact-table .eq-react-table .rt-thead .rt-th.author-sortable .sort {
+  float: unset;
+  margin-left: 10px;
+}
+
+.artifact-table .eq-react-table .rt-tbody {
+  padding-right: 16.5px;
+  width: 467px;
+  height: 1px;
+  z-index: 1;
+}
+
+.artifact-table .eq-react-table .rt-tbody div.rt-tr-group {
+  width: 453px;
+  overflow: hidden;
+  max-height: 59px;
+  border-bottom: 1px solid #757575;
+}
+
+.artifact-table .eq-react-table .rt-tbody div.rt-tr-group:not(:nth-child(n+10)) {
+  border-bottom: 1px solid #757575;
+}
+
+.artifact-table .eq-react-table .rt-tbody .rt-tr {
+  width: 451px;
+}
+
+.artifact-table .eq-react-table .rt-tbody .rt-tr:focus,
+.artifact-table .eq-react-table .rt-tbody .rt-tr:hover {
+  outline: rgba(19, 124, 189, 0.6) auto 2px;
+  outline-offset: -2px;
+}
+
+.artifact-table .eq-react-table .rt-table .rt-tbody .rt-td {
+  font-size: 12px;
+  line-height: 18px;
+  color: #181818;
+  padding: 20.5px 18px 20px;
+  border-left: 0;
+  border-right: 0;
+  height: auto;
+}
+
+.artifact-table .eq-react-table .rt-thead .rt-th.compare,
+.artifact-table .eq-react-table .rt-thead .rt-th.comment-count {
+  visibility: hidden;
+}
+
+.artifact-table .eq-react-table .rt-thead .rt-th.compare,
+.artifact-table .eq-react-table .rt-tbody .rt-td.compare {
+  margin: 0;
+  padding: 0;
+}
+
+.artifact-table .eq-react-table .rt-tbody .rt-td.compare {
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+}
+
+.artifact-table .eq-react-table .rt-tbody .rt-td.compare .bp3-control {
+  margin-bottom: 0;
+}
+
+.artifact-table .eq-react-table .rt-tbody .rt-td.compare input,
+.artifact-table .eq-react-table .rt-tbody .rt-td.compare .bp3-control-indicator,
+.artifact-table .eq-react-table .rt-tbody .rt-td.compare .bp3-control-indicator::before {
+  width: 24px;
+  height: 24px;
+}
+
+.artifact-table .eq-react-table .rt-thead .rt-th.artifact-name {
+  padding-right: 0;
+}
+
+
+.artifact-table .eq-react-table .rt-thead .rt-th.name,
+.artifact-table .eq-react-table .rt-tbody .rt-td.artifact-name {
+  padding-left: 44px;
+  padding-left: 0;
+  padding-right: 16px;
+}
+
+.artifact-table .eq-react-table .rt-tbody .rt-td.artifact-name.author-name {
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.artifact-table .eq-react-table .rt-tbody .rt-td.artifact-name label {
+  font-weight: unset;
+  padding-top: 20px;
+  padding-bottom: 20.5px;
+  margin-top: -20px;
+  margin-bottom: -20.5px;
+}
+
+.artifact-table .eq-react-table .rt-thead .rt-th.parking-lot,
+.artifact-table .eq-react-table .rt-tbody .rt-td.parking-lot {
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+.artifact-table .eq-react-table .rt-tbody .rt-td.parking-lot {
+  height: 16px;
+}
+
+.artifact-table .eq-react-table .rt-tbody .parking-lot-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.artifact-table .eq-react-table .rt-thead .rt-th.comment-count-wrapper,
+.artifact-table .eq-react-table .rt-tbody .rt-td.comment-count-wrapper {
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+.artifact-table .eq-react-table .rt-tbody .rt-td.comment-count-wrapper {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.artifact-table .eq-react-table .rt-tbody .comment-count {
+  width: 30px;
+  height: 26px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 14px;
+  padding: 3px 0 0 0;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+
+  background-image: url('images/msg-bubble-blue.svg');
+  background-size: 30px 26px;
+  background-repeat: no-repeat;
+}
+
+.artifact-table .eq-react-table .rt-tbody .rt-tr.selected .comment-count {
+  color: #2774AE;
+  background-image: url('images/msb-bubble-white.svg');
+}
+
+.artifact-table .eq-react-table .rt-thead .rt-th.date,
+.artifact-table .eq-react-table .rt-tbody .rt-td.date {
+  padding-left: 10px;
+}
+
+.artifact-table .eq-react-table .rt-tbody .rt-tr.selected {
+  background-color: #2774AE;
+}
+
+.artifact-table .eq-react-table .rt-table .rt-tbody .rt-tr.selected .rt-td {
+  color: #FFFFFF;
+}

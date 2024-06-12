@@ -1,0 +1,188 @@
+.PortfolioTable {
+  margin-bottom: 40px;
+  border-bottom: 1px solid #181818;
+}
+
+.PortfolioTable h1 {
+  margin-bottom: 20px;
+}
+
+.PortfolioTable .ReactTable {
+  border: none;
+}
+
+.PortfolioTable .ReactTable .rt-thead.-header {
+  border-bottom: 1px solid #181818;
+  box-shadow: none;
+}
+
+.PortfolioTable .ReactTable .rt-thead div.rt-th {
+  box-shadow: unset;
+  border: none;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 0 10px 10.5px;
+}
+
+.PortfolioTable .ReactTable .rt-tbody .rt-tr-group {
+  height: 70px;
+  line-height: 55px;
+  border-bottom: 1px solid #181818;
+}
+
+.PortfolioTable .ReactTable .rt-tbody .rt-td {
+  padding: 0;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+
+.PortfolioTable .ReactTable .rt-tbody .rt-td a {
+  display: block;
+  height: auto;
+  flex: 100%;
+  margin: 0 10px;
+  line-height: 18px;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.PortfolioTable .ReactTable .rt-tbody .rt-td.goto-page a {
+  width: 31px;
+  height: 31px;
+  max-width: 31px;
+  max-height: 31px;
+  border-radius: 50%;
+}
+
+.PortfolioTable .ReactTable .rt-tbody .rt-td.parkingLotCount a {
+  max-width: 112px;
+}
+
+.PortfolioTable .ReactTable .rt-tbody .rt-td.comments a {
+  max-width: 104px;
+}
+
+
+.PortfolioTable .ReactTable .rt-tbody .rt-td a img {
+  vertical-align: middle;
+  border-radius: 15.5px;
+  margin-bottom: 5px;
+}
+
+/* .PortfolioTable .ReactTable .rt-tbody .rt-td a img:hover {
+  outline: rgba(19, 124, 189, 0.6) auto 2px;
+  outline-offset: 2px;
+} */
+
+.PortfolioTable .ReactTable .rt-tbody .rt-td a span {
+  padding-left: 10px;
+}
+
+.PortfolioTable .ReactTable .rt-tbody .rt-td a .highlight {
+  display: inline-block;
+  width: 100%;
+  padding: 5px 10px;
+  line-height: 20px;
+  background-color: #2774ae;
+  color: white;
+}
+
+.PortfolioTable .ReactTable .rt-tfoot {
+  height: 70px;
+  border-top: 1px solid #181818;
+  box-shadow: none;
+  line-height: 50px;
+}
+
+.PortfolioTable .ReactTable .rt-tfoot .rt-td {
+  border: none;
+  line-height: 50px;
+}
+
+.PortfolioTable .bp3-form-group {
+  margin-bottom: 0;
+}
+
+.PortfolioTable .bp3-input {
+  margin-top: 2px;
+}
+
+.PortfolioTable .bp3-html-select {
+  width: 100%;
+  border-bottom: none;
+  margin-top: 2px;
+}
+
+.PortfolioTable .controls {
+  height: 70px;
+  line-height: 60px;
+  border-top: 1px solid #181818;
+}
+
+.PortfolioTable .controls .add {
+  margin: 10px 0;
+  padding: 10px;
+  color: #181818;
+  height: 50px;
+}
+
+.PortfolioTable .controls .add:hover {
+  color: #ffffff;
+}
+
+.PortfolioTable .controls .add .bp3-button-text {
+  margin-left: 20px;
+}
+
+.PortfolioTable .controls.centered {
+  text-align: center;
+  border-bottom: none;
+}
+
+.PortfolioTable .controls.centered button {
+  width: 200px;
+  font-weight: bold;
+}
+
+.PortfolioTable .controls.centered button:not(.eq-button-inverted) {
+  color: #757575;
+  border-color: #757575;
+}
+
+.PortfolioTable .controls.centered button:not(.eq-button-inverted):hover {
+  color: #ffffff;
+  background-color: #757575;
+}
+
+.PortfolioTable .controls.centered .eq-button-inverted {
+  margin-left: 20px;
+}
+
+.PortfolioTable .eq-react-table .rt-thead .rt-th {
+  overflow: visible;
+}
+
+.PortfolioTable .eq-react-table .rt-thead .rt-th.-sort-asc span,
+.PortfolioTable .eq-react-table .rt-thead .rt-th.-sort-desc span {
+  color: #2774AE;
+}
+
+.PortfolioTable .eq-react-table .rt-thead .rt-th.-sort-asc span img,
+.PortfolioTable .eq-react-table .rt-thead .rt-th.-sort-desc span img {
+  filter: invert(40%) sepia(7%) saturate(6505%) hue-rotate(167deg) brightness(93%) contrast(84%);
+}
+
+.PortfolioTable .eq-react-table .rt-thead .rt-th.-sort-asc span img {
+  transform: rotate(180deg)
+}
+
+.PortfolioTable .eq-react-table .rt-thead .rt-th .sort {
+  float: right;
+  clear: right;
+}
