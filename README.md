@@ -1,3 +1,10 @@
+Web application for the Spiral Notebook project.
+
+Other repositories associated with the project:
+- Mobile app: https://github.com/ucla-oarc-mobile/spiral-notebook-mobile-public
+- Server: https://github.com/ucla-oarc-mobile/spiral-notebook-server-public
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
